@@ -125,7 +125,7 @@ void TestRelev() {
 		ASSERT((tf_idf[i] - nv[i].relevance) < EPSILON);
 }
  
-void TestRaiting() {
+void TestRating() {
 
 	SearchServer server;
 	server.AddDocument(0, "белый кот и модный ошейник"s, DocumentStatus::ACTUAL, { 8, -3 });
@@ -229,7 +229,7 @@ void TestSearchServer() {
 	TestAddDoc();
 	TestMinusWords();
 	TestRelev();
-	TestRaiting();
+	TestRating();
 	TestForPredicate();
 	TestForDocumentsStatus();												 
 }
