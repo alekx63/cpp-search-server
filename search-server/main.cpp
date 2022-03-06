@@ -232,5 +232,4 @@ void TestSearchServer() {
 	TestRating();
 	TestForPredicate();
 	TestForDocumentsStatus();												 
-//
 }
